@@ -1,0 +1,52 @@
+body {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  font-family: sans-serif;
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonsContainer button {
+  margin: 5px 10px;
+}
+
+.listsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  text-align: center;
+}
+
+.listWrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: left;
+}
+
+.listContainer {
+  width: 100%;
+}
+
+.propertiesHeader {
+  font-size: 24px;
+}
+
+.methodsHeader {
+  font-size: 24px;
+}
+
+.listWrapper ul {
+  list-style: none;
+  padding: 0;
+}
+
+.listWrapper ul li div:hover {
+  background-color: cyan;
+}
+
+.listWrapper ul li div:nth-child(2) {
+  background-color: sandybrown;
+}
